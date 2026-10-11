@@ -1,0 +1,16 @@
+{
+  "name": "spire-of-shadows-server",
+  "version": "1.0.0",
+  "description": "尖塔之影 - WebSocket 联机中转服务器",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["websocket", "game", "multiplayer"],
+  "license": "MIT"
+}
